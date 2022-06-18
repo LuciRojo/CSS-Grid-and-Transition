@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    height: auto;
+    background-color: rgb(183, 153, 156);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.contenedor{
+    padding: 2%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows:repeat(4, 150px);
+    /* border: 1px solid white; */
+    gap: 10px;
+}
+
+.contenedor div{
+    border: 3px solid white;
+}
+
+
+ h2{
+    margin: 0;
+    background-color: grey;
+    font-family: 'Dancing Script';
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+.pic1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image:url(./Pic/noche-estrellada-van-gogh.jpg);
+    background-size: 300px;   
+    background-position: center;
+}
+
+.pic1:hover{
+    transition: 4s;
+    transform:scale(2);
+}
+
+.pic2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: url(./Pic/1888-portret-van-de-postbode-joseph-roulin-81-3-cm-ancho-65-4-cm-museo-de-bellas-artes-boston-cke.webp);
+    background-size: 240px;
+    background-position: center;
+}
+
+.pic2:hover{
+    transition: 4s;
+    transform:scale(2);
+}
+
+.pic3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-image: url(./Pic/pinturas-de-vincent-van-gogh-og.webp);
+    background-position: center;
+    background-size: 300px;
+}
+.pic3:hover{
+    transition: 4s;
+    transform:scale(2);
+}
+
+.pic4{
+    grid-row-start: 4;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-image: url(./Pic/1887-88-self-portrait-with-grey-felt-hat-oil-on-canvas-44-0-x-37-5-cm-paris-winter.webp);
+    background-position: center;
+    background-size: 300px;
+}
+
+.pic4:hover{
+    transition: 4s;
+    transform:scale(2);
+}
+
+.pic5{
+    background-image: url(./Pic/91026.webp);
+    background-position: center;
+    background-size: 140px;
+}
+
+.pic5:hover{
+    transition: 4s;
+    transform:scale(2);
+}
+
+.pic6{
+    background-image: url(./Pic/1889-lirios-71-cm-93-cm-j-paul-getty-museum-los-angeles-california-1-cke.webp);
+    background-position: center;
+    background-size: 165px;
+}
+
+.pic6:hover{
+    transition: 4s;
+    transform:scale(2);
+}
+
+.pic7{
+    grid-column-start: 1;
+    grid-column-end: 4;
+   background-image: url(./Pic/1280px-van-gogh-wheatfield-with-crows-cke.webp);
+   background-position: center;
+   background-size: 500px;
+}
+
+.pic7:hover{
+    transition: 4s;
+    transform:scale(2);
+}
+
+.pic8{
+    background-image: url(./Pic/1885-1886-vincent-van-gogh-head-of-a-skeleton-with-a-burning-cigarette-32-cm-24-5-cm-museo-van-gogh-amsterdam-cke.webp);
+    background-position: center;
+    background-size: 150px;
+
+}
+
+.pic8:hover{
+    transition: 4s;
+    transform:scale(2);
+    
+}
